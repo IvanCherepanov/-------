@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=endge">
+  <meta name="viewport" content="width=device-width, initial-skale=1.0">
+  <title>Witcher</title>
+  <link rel = "icon" href="C:\Users\Иван\OneDrive\Desktop\Верстка\Учеба\Сентрябрь\0209/favicon.ico"type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script> 
+    window.onload = function() {
+     var drawingCanvas = document.getElementById('smile');
+     if(drawingCanvas && drawingCanvas.getContext) {
+      var context = drawingCanvas.getContext('2d');
+      // Рисуем окружность 
+      context.strokeStyle = "#000";
+      context.fillStyle = "#fc0";
+      context.beginPath();
+      context.arc(100,100,50,0,Math.PI*2,true);
+      context.closePath();
+      context.stroke();
+      context.fill();
+      // Рисуем окружность
+      context.strokeStyle = "#000";
+      context.fillStyle = "#ff0000";
+      context.beginPath();
+      context.arc(100,100,25,0,Math.PI*2,true);
+      context.closePath();
+      context.stroke();
+      context.fill();
+     }
+    }
+   </script>
+</head>
+
+<body > 
+  <h1>Вселенная ведьмака</h1>
+  <div class="block1">
+  <p ><a name = "quote"></name>Воистину, нет ничего более отвратного, нежели монстры оные, натуре противные, ведьмаками именуемые, ибо суть они плоды мерзопакостного волшебства и диавольства. Это есть мерзавцы без достоинства, совести и чести, истинные исчадия адовы, токмо к убиениям приспособленные. Нет таким, како оне, места меж людьми почтенными"</p>
+  </div>
+  <h2><a name = "School"></name>Ведьмачьи школы: </h2>
+  <ol>
+    <li>Школа волка</li>
+    <li>Школа змеи</li>
+    <li>Школа медведя</li>
+    <!-- <li>Школа монтикоры</li> --> <!-- тег элемента списка -->
+    <li>Школа кота</li>
+    <li>Школа грифона</li>
+  </ol>
+    
+  <h2><a name = "History"></name>История</h2>
+    <p >Первый рассказ цикла увидел свет в 1986 году, а последняя книга — в 2013. Действие книг происходит в вымышленном Мире «Ведьмака» (англ. Neverland или англ. The Continent), напоминающем Европу времён позднего средневековья, где рядом с людьми существуют разного рода волшебные существа и чудовища.</p>
+    <p>Геральт из Ривии — один из последних «ведьмаков», бродячих охотников на чудовищ. В то время как первые книги цикла представляют собой сборники рассказов о приключениях Геральта, нередко сатирически обыгрывая фольклор и классические литературные сказки, сюжет последующих книг представляет собой более масштабную историю, построенную вокруг Геральта и его воспитанницы Цири, обладающей сверхъестественными способностями. По мотивам произведений сняты два сериала — польский (2002) и американский (2019), и фанатский фильм «Полвека поэзии спустя»; выпущены компьютерные игры: («Ведьмак», «Ведьмак 2: Убийцы королей» и «Ведьмак 3: Дикая охота»); написана и поставлена рок-опера; на родине писателя издавались комиксы о похождениях Геральта и других героев его саги.</p>
+    <p >«Ведьма́к» (англ. The Witcher, польск. Wiedźmin,) — компьютерная ролевая игра, разработанная польской компанией CD Projekt RED по мотивам одноимённой серии романов польского писателя Анджея Сапковского. Релиз игры на платформе Windows состоялся 24 октября 2007 года — в России, 26 октября — в Европе и 30 октября 2007 года — в США[7]. В 2012 году вышла версия для OS X.</p>
+    <i>Сопряжение сфер</i><br><hr>
+    <b>Чародеи</b><br><hr>
+    <u>Первые крепости</u>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+    function myFunction() {
+    alert("no!");
+    }
+    </script>
+    
+    
+  <h2>Упадок</h2>
+  <h2 id="face">Известные представители</h2>
+  <img src="leto.jpg" width="100" height="111" alt="Лето из Гулеты">
+  <h2>Мутагены</h2>
+    <p>Одним из главных компонентов является C<sub>2</sub>H<sub>5</sub>OH</p>
+    <!-- <p>Используется концетрация мутагенов 2<sup>2*0.9</sup> процентов</p> --> <!-- тег абзаца -->
+  <h2>Фехтование</h2>
+  <ol>
+      <li type="A">Атака</li>
+      <li type="a">Батман</li>
+      <li type="I">Боевая стойка</li>
+      <li type="i">Боевая схватка</li>
+      <li type="1">Бой</li>
+      <li>Бой ближний</li>
+      <li>Бой наступательный</li>
+      <li>Бой оборонительный</li>
+      <li>Бой маневренный</li>
+      <li>Бой позиционный</li>
+  </ol>
+  <ul>
+      <li>Гарда </li>
+      <li>Границы поля боя </li>
+      <li>Двойной перевод </li>
+      <li>Действие</li>
+      <li>Действие с переключением</li>
+      <li>Действие преднамеренное</li>
+      <li>Действие экспромтное</li>
+      <li>Дистанция</li>
+      <li>Дистанция ближняя </li>
+      <li>Дистанция средняя</li>
+  </ul>
+  <h2>Полезные ссылки</h2>
+  <ol>
+    <i>
+        <li><a href="https://www.cdprojekt.com/en/">Home - CD PROJEKT</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B4%D1%8C%D0%BC%D0%B0%D0%BA_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2)">Ведьмак (серия романов)</a></li>
+        <li><a href="http://www.greenfield.narod.ru/articles/vedmak.html">ВЕДЬМАК ГЕРАЛЬТ В ЖИЗНИ И В КИНО</a></li>
+        <li><a href="http://www.sapkowski.su/">«Миры Анджея Сапковского»</a></li>
+        <li><a href="https://vedmak.fandom.com/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Вики-сайт о мире Ведьмака</a></li>
+    </i>
+    <b>
+        <li><a href="http://correctura.sapkowski.su/">Ошибки в переводах произведений Анджея Сапковского</a></li>
+        <li><a href="https://fantasywiki.ru/vse-knigi-o-vedmake-v-kakom-porjadke-chitat-knigi/">Апология Сапковского. Разбор распространенных заблуждений о цикле книг «Ведьмак»</a></li>
+        <li><a href="https://evrl.to/articles/5b9363ea6ec7f754f8765139/tsiri-v-vedmake-ot-netflix-mozhet-sygrat-temnokozhaja-aktrisa-ili-aziatka/">Циpи в «Вeдьмакe» oт Netflix мoжет cыгpaть тeмнoкoжaя актpиса или aзиaткa</a></li>
+    </b>
+    <li><a href="https://www.playground.ru/blogs/witcher_3_wild_hunt/andzhej_sapkovskij_bolshe_ne_sotrudnichaet_s_netflix_v_rabote_nad_serialom_vedmak-286653/">Циpи в «Вeдьмакe» oт Netflix мoжет cыгpaть тeмнoкoжaя актpиса или aзиaткa</a></li>
+    <li><a href="https://www.rottentomatoes.com/tv/the_witcher/s01"> The Witcher: Season 1 (2019)</a></li>
+  </ol>
+  <h2>Медиа-файлы</h2>
+  
+
+  <h2>Ссылки-картинки</h2>
+  <a href="https://mastenarium.ru/product-category/witcher/"><img src="market.jpg" width="300" height="111" ></a>
+  <a href="https://duelfencing.ru/clubs/blade-and-vine"><img src="hobby.svg" width="100" height="111"></a>
+  <a href="https://steamcommunity.com/app/292030"><img src="steam.jpg" width="100" height="111"></a>
+  <a href="https://www.ozon.ru/product/vedmak-komplekt-iz-9-knig-145746594/features/" ><img src="book.jpg" width="100" height="111"></a>
+  <a href="https://www.netflix.com/ru/title/80189685"><img src="film.jpg" width="100" height="111"></a>
+
+  <h2>Форма регистрации</h2>
+  <fieldset>
+    <legend>Контактная информация</legend>
+    <label for="name">Имя <em></em></label>
+    <input id="name"><br>
+    <label for="telephone">Телефон</label>
+    <input id="telephone" type="number"><br>
+    <label for="email">Email <em></em></label>
+    <input id="email" type="email"><br>
+    <label for="password" >password<em></em></label>
+    <input id="password" type="password"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Персональная информация</legend>
+      <label for="age">Возраст<em>*</em></label>
+      <input id="age"><br>
+      <label for="gender">Пол</label>
+      <select id="gender">
+        <option value="female">Женщина</option>
+        <option value="male">Мужчина</option>
+      </select><br>
+  </fieldset>
+  <fieldset>
+    <legend>Выберите предпочитаемые школы</legend>
+    <label for="wolf"><input id="wolf" type="checkbox"> Школа волка</label>
+    <label for="cat"><input id="cat" type="checkbox"> Школа змеи</label>
+    <label for="manticore"><input id="manticore" type="checkbox"> Школа монтикоры</label>
+    <label for="bear"><input id="bear" type="checkbox"> Школа медведя</label>
+    <label for="grif"><input id="grif" type="checkbox"> Школа грифона</label>
+    <label for="cat"><input id="cat" type="checkbox"> Школа кота</label>
+  </fieldset>
+  <fieldset>
+    <legend>
+      <form>
+        <p><b>Читали ли Вы книги?</b></p>
+        <p><input name="question" type="radio" value="yes">Да</p>
+        <p><input name="question" type="radio" value="no">Нет</p>
+      </form>
+    </legend>
+  </fieldset>
+  <p><input type="submit" value="Отправить информацию"></p>
+  <h2>Аудио и видео файлы</h2>
+  <audio controls="controls">
+    <source src="Joey_Batey_-_Toss_a_Coin_to_Your_Witcher_67710802.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Si65KjkMy8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h2>Всякая всячина</h2>
+  <video width="400" height="300" controls="controls" poster="book.jpg"> 
+    <source src="FILM.ogv" type="video/ogg"/>
+  <source src="FILM.webm" type="video/webm"/>
+  <source src="FILM.mp4" type="video/mp4"/> 
+  </video>
+  <p>Панорама горы Белуха с перевала Кара-Тюрек.</p>
+<video width="300" height="200" controls="controls">
+<source src="mountvideo.ogv" type="video/ogg" />
+<source src="mountvideo.mp4" type="video/mp4" />
+<source src="mountvideo.webm" type="video/webm" />
+</video>
+  <p>Текст с <mark>выделением</mark></p>
+  <p style="background-color: coral;">Текст с другим цветом</p>
+  <p  style = "color: antiquewhite;">Текст с фоновым цветом</p>
+  <p style="font-size: large;">Текст с большим шрифтом</p>
+  <iframe  width="1000px" height="1000px" src="http://www.greenfield.narod.ru/articles/vedmak.html"  name="firstFrame" allow="fullscreen" >Ваш браузер не поддерживает плавающие фреймы!</iframe>
+  <p>Якорные ссылки</p>
+  <p><a href="#quote">Первый обзац</a></p>
+  <p><a href="#School">Второй абзац</a></p>
+  <p><a href="menu.html#third_mark">На другую страницу</a></p>
+  <p><a href="https://vedmak.fandom.com/wiki/%D0%93%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D1%82_%D0%B8%D0%B7_%D0%A0%D0%B8%D0%B2%D0%B8%D0%B8"><img src="geralt.jpg" width="150" height="150" alt="Пример"></a></p>
+  <h2>Контакты</h2>
+  <p><a href=”tel:123-456-7890″>123-456-7890</a>.</p>
+  <a href="tel:+79779777231">Позвоните нам!</a>
+  <p><a href="bird.html#Bullfinch" target="_blank">Снегирь</a></p>
+  <p><a href="wood.html#Fir" target="_blank">Ель</a></p>
+  <p><a href="#face" target="_blank">Лица</a></p>
+  <h2>Создание фигур</h2>
+  <h2>Индикаторы</h2>
+  <p>Пожалуйста, подождите загружаются файлы.</p>
+  <progress max="100" value="25">
+    Загружено на <span id="value">25</span>%
+  </progress>
+  <p>Индикатор meter</p>
+  <meter value="10" max="100" low="10" high="60">Низкая</meter>
+  <meter value="50" max="100" low="10" high="60">Низкая</meter>
+  <meter value="80" max="100" low="10" high="60">Низкая</meter>
+  <p>Черепанов Иван Владимирович</p>
+  <canvas id="smile" width="200" height="200">
+    <p>Ваш браузер не поддерживает рисование.</p>
+  </canvas>
+  <h2>Карта</h2>
+  <p><img src="znaki.jpg" width="637" height="464" usemap="#sign" alt="Навигация"></p>
+  <map name="sign"> 
+    <area shape="poly" coords="126,249,174,250,159,271,179,295,125,296,143,273" href=
+    "https://vedmak.fandom.com/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D0%98%D0%B3%D0%BD%D0%B8" target="_blank"
+                alt="Irden">
+            <area shape="circle" coords="326,277,100" href=
+            "https://vedmak.fandom.com/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD" target="_blank"
+                alt="Medal">          
+            <area shape="rect" coords="432,142,496,195" href=
+    "https://vedmak.fandom.com/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D0%90%D0%BA%D1%81%D0%B8%D0%B9" target="_blank"
+                alt="Aksiy">
+                <area shape="poly" coords="327,102,361,157,293,157" href=
+    "https://vedmak.fandom.com/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D0%98%D0%B3%D0%BD%D0%B8" target="_blank"
+                alt="Igni">
+                <area shape="poly" coords="504,233,534,289,468,293" href=
+    "https://vedmak.fandom.com/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D0%90%D0%B0%D1%80%D0%B4" target="_blank"
+                alt="Aard">
+                <area shape="poly" coords="153,145,217, 144,187,199" href=
+    "https://vedmak.fandom.com/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D0%9A%D0%B2%D0%B5%D0%BD" target="_blank"
+                alt="Kven">
+</map>
+<p><img src="creation.png" width="450" height="360" usemap="#shapes-map" alt="Навигация"></p>
+  <map name="shapes-map"> 
+    <area shape="rect" coords="9,17,116,63" href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" alt="Прямоугольник" title="Прямоугольник">
+<area shape="circle" coords="102,157,44" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt="Окружность" title="Окружность">
+<area shape="poly" coords="299,44,326,119,398,121,337,167,361,243,298,196,233,244,257,167,201,119,276,119" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)" alt="Многоугольник" title="Многоугольник">
+</map>
+
+
+
+</body>
+</html>
