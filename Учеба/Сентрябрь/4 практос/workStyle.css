@@ -1,0 +1,128 @@
+body{
+    background-color: lemonchiffon;
+}
+.letterDown{
+    vertical-align: sub;
+    color: #0000ff;
+}
+.shadow-1{
+    box-shadow: 0px 10px 15px 10px #000;
+    margin-bottom: 20px;
+}
+.shadow-2{
+    box-shadow: -8px 0px 5px #7f731d, 10px 0px 10px #289b19, 0px 15px 10px #808080, 0px -15px 12px #0000ff;
+    margin-left:  60px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+.shadow-2:hover{
+    box-shadow: 0px 10px 5px rgb(238, 14, 33), 0px -10px 15px rgb(155, 87, 31), 10px 0px 0px rgb(0, 255, 34), -15px 0px 7px rgb(255, 0, 234);
+
+}
+.block2{
+    background: lightgreen;
+    box-sizing: content-box;
+    width: fit-content;
+    box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+}
+
+.card:after {
+    content: "\2660,\2663,\2665,\2666";/*1.	Знаки карточных мастей*/
+    font-size:30px;
+}
+.greekLetter:after {
+    content: "\03B1,\03B2,\03B3,\03B4,\03B5";/*2.	Первые пять букв греческого алфавита*/
+    font-size:30px;
+}
+.money:after {
+    content: "\0024,\00A2,\00A3,\00A5";/*3.	Знаки денежных единиц*/
+    font-size:30px;
+}
+.markOfMark:after {
+    content: "\00A9,\00AE,\2122";/*4.	Знаки ©, ®, торговой марки*/
+    font-size:30px;
+}
+.fractions:after{
+    content: "\00BC,\00BD,\00BE";/*5.	Дроби ¼, ½, ¾*/
+    font-size:30px;
+}
+.signs:after{
+    content: "\00B6,\00A7,\2012,\2014";/*6.	Знаки ¶, §, тире, длинное тире*/
+    font-size:30px;
+}
+.useful:after{
+    content: "\01E2,\01E4,\01E5,\01E9,\01EE";/*7.	Полезные знаки и символы на свой выбор (не менее 5)*/
+    font-size:30px;
+}
+.box { 
+    text-align: center;  
+}
+
+.chess-board { 
+    display: inline-block;
+    border-spacing: 0; 
+    border-collapse: collapse; }
+.chess-board th { 
+    padding: .5em; 
+}
+.chess-board td { 
+    border: 1px solid; 
+    width: 5em; height: 5em; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+.white{
+    background-color: gray;
+}
+.black{
+    background: black;
+}
+.circleDiagramm{
+    background: #d5dfcc;
+    width: 100px; height: 100px;
+    text-align: center;
+    font:40px/100px Times, serif;/*Установите размер шрифта на 40 пикселей и высоту строки на 100 пикселей.*/
+    border: 15px solid #59df38;
+    border-right: 15px solid #9cb98e;
+    border-radius: 100px;
+}
+
+.firstdiv {
+    position: relative;
+    width: 50%;
+    overflow: hidden;/*Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
+    /*Отображается только область внутри элемента, остальное будет скрыто.*/
+    background: #2ea02e;
+    }
+
+.firstdiv:before{
+content: "";
+display: block;
+padding-top: 100%;
+}
+
+.adaptberskin {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+.adaptberskin div {
+display: table;/*Определяет, что элемент является блочной таблицей подобно использованию тега*/
+width: 100%;
+height: 100%;
+}
+.adaptberskin span {
+display: table-cell;/*Указывает, что элемент представляет собой ячейку таблицы */
+text-align: center;/*Определяет горизонтальное выравнивание текста в пределах элемента.*/
+vertical-align: middle;/*Выравнивание средней точки элемента по базовой линии родителя плюс половина высоты родительского элемента.*/
+color: #fbf7f7;
+font-size: 17px;
+}
+
+
+input[type=checkbox]:checked + span{
+    background-color: #ffff00;
+  }
+

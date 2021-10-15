@@ -1,0 +1,44 @@
+
+.in{
+    margin-left:10px;
+    padding-left: 10px;
+}
+input[type=text]:valid + span:before { 
+    content: url(''); 
+    background-image: url(gal.png);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-size: cover;
+    left: 0px; 
+}
+input[type=text]:invalid + span:before { 
+    content: url(''); 
+    background-image: url(negal.jpg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-size: cover;
+    left: 0px;
+}
+
+input[type=number]:valid + span:before { 
+    content: url(''); 
+    background-image: url(gal.png);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-size: cover;
+    left: 0px; 
+}
+input[type=number]:invalid + span:before { 
+    content: url(''); 
+    background-image: url(negal.jpg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-size: cover;
+    left: 0px;
+}
+  
+  

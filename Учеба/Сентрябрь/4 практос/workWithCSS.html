@@ -5,32 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=endge">
   <meta name="viewport" content="width=device-width, initial-skale=1.0">
   <title>Work with CSS</title>
-  <style>
-    input[type="checkbox"]:checked + span { background: #fc0; }
-    span { padding: 0 5px; }
-   </style>
   <link rel = "icon" href="C:\Users\Иван\OneDrive\Desktop\Верстка\Учеба\Сентрябрь\0209/favicon.ico"type="image/x-icon">
   <link rel="stylesheet" href="workStyle.css">
-  <style type="text/css">
-    input.ok + label:after{
-   content: '\2714';
-     color: green;
-     font-size: 23px;
- 
- }
-    input.no + label:after{
-   content: '\2715';
-     color: red;
-     font-size: 23px;
- 
- }
+</style>
    </style>
 </head>
 
 <body > 
   <h1>Встроенный CSS</h1>
   <p>Цифровая И<span class="letterDown">Н</span>Д<span class="letterDown">У</span>С<span class="letterDown">Т</span>Р<span class="letterDown">И</span>Я</p>
-<p>&Delta;x<sup>3-</sup>&beta;y<sup>3</sup>&lambda;+&gamma;z<sub>2</sub>&xi;-&theta;<sub>2</sub>>&Psi;</p>
+  <p>&Delta;x<sup>3-</sup>&beta;y<sup>3</sup>&lambda;+&gamma;z<sub>2</sub>&xi;-&theta;<sub>2</sub>>&Psi;</p>
 <h1>Внутренний CSS</h1>
 <img class="shadow-1"  src="asssasin.jpg" width="300px" height="200px">
 <img class="shadow-2" src="assasin1.jpg" width="300px" height="200px">
@@ -152,53 +136,52 @@
   </div>
 <p>Круговая диаграмма</p>
 <div class="circleDiagramm">75%</div>
+<!-- 
 <p>Форма с галочкой</p>
-<form>
+<form id="form" action='#'> 
   <fieldset>
     <legend>Контактная информация</legend>
-    <p class="text-form"><label for="name"><span class="flag"></span> Имя <em>*</em></label><input type="text" id="name1"></p>
-    <p class="text-form"><label for="ageY"><span class="flag"></span> Сколько вам лет?<em>*</em></label><input type="number" id="age"></p>
-    <p class="text-form"><label for="choose"><span class="flag"></span> Вы учитесь или работаете?<em>*</em></label><input type="text" id="name2"></p>
-    <p class="text-form"><label for="time"><span class="flag"></span> Сколько у вас свободного времени?<em>*</em></label><input type="text" id="name3"></p>
-    <p class="text-form"><label for="freetime"><span class="flag"></span> Что обычно делаете в свободное время?</label><input type="text" id="name4"></p>
-    <script type="text/javascript">
-      const flagTrue = "true";
-      const flagFalse = "false";
-      const inputs = document.querySelectorAll('.text-form');
-      inputs.forEach(item => {
-        const input = item.querySelecto
-        r('input');
-        const flag  = item.querySelector('.flag');
-        input.addEventListener('change', (event) => {
-          const text = event.target.textContent;
-          if (input.type == "text") {
-            if (!flag.classList.contains(flagTrue)) {
-              flag.classList.add(flagTrue);
-            } else {
-              flag.classList.remove(flagTrue);
-            }
-          }
-        });
-      });
-    </script>
+    <div class="inputBox"></div>
+    <p  class="text-form"><label for="name"><span class="flag"></span> Имя <em>*</em></label>
+      <input type="text"  size="50" required id="name1" ></p></div>
+    <div class="inputBox">
+      <p   class="text-form"><label for="ageY"><span class="flag"></span> Сколько вам лет?<em>*</em></label>
+      <input data-rule="number" type="text" id="age" ></p></div>
+    <div class="inputBox">
+      <p  class="text-form"><label for="choose"><span class="flag"></span> Вы учитесь или работаете?<em>*</em></label>
+      <input data-rule="text" type="text" id="name2"></p></div>
+    <div class="inputBox">
+        <p   class="text-form"><label for="time"><span class="flag"></span> Сколько у вас свободного времени?<em>*</em></label>
+      <input data-rule="text" type="text" id="name3"></p></div>
+    <div class="inputBox">
+         <p  class="text-form"><label for="freetime"><span class="flag"></span> Что обычно делаете в свободное время?</label>
+      <input data-rule="text" type="text" id="name4"></p></div>
+    
   </fieldset>
 <p><input type="submit" value="Отправить"></p>
 </form>
-<p>Адаптивный квадрат</p>
-<div class="wrapper">
-  <div class="block4"><p>Content</p></div>
-</div>
-<p>Новая форма</p>
-<form>
-  <p><label><input type="checkbox" name="sortament" value="1" class="forms"> 
-    <span>HTML</span></label></p>
-  <p><label><input type="checkbox" name="sortament" value="2" class="forms"> 
-    <span>CSS</span></label></p>
-  <p><label><input type="checkbox" name="sortament" value="3" class="forms"> 
-    <span>JS</span></label></p>
-  <p><label><input type="checkbox" name="sortament" value="4" class="forms"> 
-    <span>U</span></label></p>
-  <p><input type="submit" value="Отправить"></p>
- </form>
-</body>
+-->
+  <p>Адаптивный квадрат</p>
+  <div class='firstdiv'>
+    <div class='adaptberskin'>
+      <div>
+      <span>Contest</span>
+      </div>  
+    </div>
+  </div>
+
+  <p>Новая форма</p>
+  <form id="formOfFill">
+    <p><label><input type="checkbox" name="sortament" > 
+      <span>HTML</span></label></p>
+    <p><label><input type="checkbox" name="sortament" > 
+      <span>CSS</span></label></p>
+    <p><label><input type="checkbox" name="sortament" > 
+      <span>JS</span></label></p>
+    <p><label><input type="checkbox" name="sortament" > 
+      <span>U</span></label></p>
+    <p><input type="submit" value="Отправить"></p>
+  </form>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, cumque.</p>
+  </body>
 </html>
